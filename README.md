@@ -43,12 +43,12 @@ self.showMessage("Some Text...", type: .Success, options: [.Animation(.Slide),
                                                            .AutoHide(true),
                                                            .AutoHideDelay(3.0),
                                                            .Height(44.0),
-                                                           .HideOnTap(true)
+                                                           .HideOnTap(true),
                                                            .Position(.Top),
                                                            .TextAlignment(.Center),
                                                            .TextColor(UIColor.whiteColor()),
                                                            .TextNumberOfLines(1),
-                                                           .TextPadding(30.0)]
+                                                           .TextPadding(30.0)])
 ```
 
 ## Font / Background Color
